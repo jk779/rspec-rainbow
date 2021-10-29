@@ -2,9 +2,9 @@ Documentation:
   Enabled: false
 FrozenStringLiteralComment:
   Enabled: false
-Metrics/LineLength:
-  Max: 140
+Layout/LineLength:
+  Max: 120
 AllCops:
+  NewCops: enable
+  SuggestExtensions: false
   TargetRubyVersion: 2.7
-  Exclude:
-    - 'bin/*'
