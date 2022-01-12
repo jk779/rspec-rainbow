@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary               = 'RSpec rainbow formatter'
   spec.homepage              = 'https://github.com/mscoutermarsh/rspec-rainbow'
   spec.license               = 'MIT'
-  spec.required_ruby_version = '2.7.0'
+  spec.required_ruby_version = '>= 2.7'
   spec.files                 = %w[.gitignore Gemfile LICENSE README.md Rakefile lib/rspec_rainbow.rb
                                   lib/rspec_rainbow/rspec2.rb lib/rspec_rainbow/rspec3.rb rspec_rainbow.gemspec]
   spec.executables           = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
